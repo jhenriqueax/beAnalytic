@@ -54,10 +54,9 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 
 ## Links
 
-<a href="https://docs.google.com/spreadsheets/d/1tyL-ACZz9AAzCE_aaDK0agLfGnQwmI0ah0MUoNjB1Co/edit#gid=90847690" target="_blank">Google Sheets conectado</a>
+[Google Sheets conectado](https://docs.google.com/spreadsheets/d/1tyL-ACZz9AAzCE_aaDK0agLfGnQwmI0ah0MUoNjB1Co/edit#gid=90847690)
 
-<a href="https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing" target="_blank">Extração Ordenado pelo nome</a>
-
+[Extração Ordenado pelo nome](https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing)
 
 
 # 3) Analytics (Bônus)
