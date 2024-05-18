@@ -7,9 +7,9 @@ Foi desenvolvindo um script que realiza a raspagem dos dados da [steam](https://
 
 ## Requisitos
 
-- **Python**
-- **Selenium**
-- **ChromeDriver**
+- `Python`
+- `Selenium`
+- `ChromeDriver`
 
 ## Configuração
 
@@ -60,7 +60,19 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 
 [Extração Ordenado pelo nome](https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing)
 
-# 3) Análise (Bônus)
+# 3) Analytics (Bônus)
+
+Este projeto em R analisa os dados dos jogos disponíveis na plataforma Steam, explorando as distribuições de preços, descontos, e avaliações dos jogos.
+
+## Pré-requisitos
+
+Para executar este script, você precisará de uma instalação do R com os pacotes:
+
+- `ggplot2`
+- `dplyr`
+- `lubridate`
+
+## Análise
 
  - Preço: Varia de R$0,00 a R$135,74, com uma média de R$14,10. A maioria dos jogos custa menos de R$18,00.
 
@@ -69,8 +81,10 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
  - Avaliação: As avaliações dos jogos estão entre 60,1% e 96,62%, com uma média de aproximadamente 80,92%.
 
 
+## Plots
+
 ### Histograma de Preços
-![Histograma de Preços](plots/Rplot.png)  
+![Histograma de Preços](Plots/Rplot.png)  
 Este gráfico mostra a distribuição dos preços dos jogos. A maioria dos jogos tem um preço baixo, com um pico significativo em R$0,00, sugerindo muitos jogos gratuitos ou com descontos que os tornam gratuitos.
 
 ### Histograma de Descontos
