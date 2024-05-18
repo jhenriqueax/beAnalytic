@@ -59,3 +59,24 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 
 
 [Extração Ordenado pelo nome](https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing)
+
+# 3) Análise (Bônus)
+
+ - Preço: Varia de R$0,00 a R$135,74, com uma média de R$14,10. A maioria dos jogos custa menos de R$18,00.
+
+ - Desconto: Varia de -100% a -50%, com uma média de -70%.
+
+ - Avaliação: As avaliações dos jogos estão entre 60,1% e 96,62%, com uma média de aproximadamente 80,92%.
+
+
+### Histograma de Preços
+![Histograma de Preços](plots/Rplot.png)  
+Este gráfico mostra a distribuição dos preços dos jogos. A maioria dos jogos tem um preço baixo, com um pico significativo em R$0,00, sugerindo muitos jogos gratuitos ou com descontos que os tornam gratuitos.
+
+### Histograma de Descontos
+![Histograma de Descontos](plots/Rplot01.png)  
+A distribuição dos descontos mostra que muitos jogos têm descontos próximos a -100% (gratuitos), com menos jogos tendo descontos menores. A maioria dos descontos está agrupada entre -50% e -80%.
+
+### Histograma de Avaliações
+![Histograma de Avaliações](plots/Rplot02.png)  
+As avaliações dos jogos estão entre 60% e 96%, com uma média aproximadamente de 80%. Há um pico em torno de 80-85%, indicando uma tendência de avaliações positivas na maioria dos jogos.
