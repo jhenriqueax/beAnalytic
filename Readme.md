@@ -70,7 +70,7 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 
 
 ### Histograma de Preços
-![Histograma de Preços](Plots/Rplot.png)  
+![Histograma de Preços](plots/Rplot.png)  
 Este gráfico mostra a distribuição dos preços dos jogos. A maioria dos jogos tem um preço baixo, com um pico significativo em R$0,00, sugerindo muitos jogos gratuitos ou com descontos que os tornam gratuitos.
 
 ### Histograma de Descontos
