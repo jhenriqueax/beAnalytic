@@ -30,3 +30,32 @@ Foi desenvolvindo um script que realiza a raspagem dos dados da [steam](https://
 
 
 # 2) Conectando ao Google BigQuery
+
+
+
+### Selecionar todas as linhas
+
+```
+SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
+```
+
+
+### Ordenar pelo nome
+
+```
+
+SELECT `Name` AS `Name`, `Discount` AS `Discount`, `Price` AS `Price`, `Rating` AS `Rating`, `Release` AS `Release`, `Ends` AS `Ends`, `Started` AS `Started`
+  FROM (
+SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
+)
+  ORDER BY `Name` ASC
+
+```
+
+## Links
+
+[Google Shets conectado](https://docs.google.com/spreadsheets/d/1tyL-ACZz9AAzCE_aaDK0agLfGnQwmI0ah0MUoNjB1Co/edit#gid=90847690)
+
+
+
+[Extração Ordenado pelo nome](https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing)
