@@ -66,8 +66,7 @@ Este projeto em R analisa os dados dos jogos disponíveis na plataforma Steam, e
 
 ## Pré-requisitos
 
-Para executar este script, você precisará de uma instalação do R com os pacotes:
-
+- `R`
 - `ggplot2`
 - `dplyr`
 - `lubridate`
