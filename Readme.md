@@ -70,13 +70,13 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 
 
 ### Histograma de Preços
-![Histograma de Preços](plots/Rplot.png)  
+![Histograma de Preços](Plots/Rplot.png)  
 Este gráfico mostra a distribuição dos preços dos jogos. A maioria dos jogos tem um preço baixo, com um pico significativo em R$0,00, sugerindo muitos jogos gratuitos ou com descontos que os tornam gratuitos.
 
 ### Histograma de Descontos
-![Histograma de Descontos](plots/Rplot01.png)  
+![Histograma de Descontos](Plots/Rplot01.png)  
 A distribuição dos descontos mostra que muitos jogos têm descontos próximos a -100% (gratuitos), com menos jogos tendo descontos menores. A maioria dos descontos está agrupada entre -50% e -80%.
 
 ### Histograma de Avaliações
-![Histograma de Avaliações](plots/Rplot02.png)  
+![Histograma de Avaliações](Plots/Rplot02.png)  
 As avaliações dos jogos estão entre 60% e 96%, com uma média aproximadamente de 80%. Há um pico em torno de 80-85%, indicando uma tendência de avaliações positivas na maioria dos jogos.
