@@ -59,6 +59,7 @@ SELECT * FROM `beanalytic-423717.beanalytic.beanalytic`
 <a href="https://docs.google.com/spreadsheets/d/1u96i-NJRRX3ta_pNsX7A6goGPnY8KfaoK7idz-SlJeU/edit?usp=sharing" target="_blank">Extração Ordenado pelo nome</a>
 
 
+
 # 3) Analytics (Bônus)
 
 Este projeto em R analisa os dados dos jogos disponíveis na plataforma Steam, explorando as distribuições de preços, descontos, e avaliações dos jogos.
